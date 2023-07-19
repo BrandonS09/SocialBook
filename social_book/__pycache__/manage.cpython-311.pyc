@@ -1,0 +1,19 @@
+§
+    +Ùsd±  ã                   óD   — d Z ddlZddlZd„ Zedk    r e¦   «          dS dS )z7Django's command-line utility for administrative tasks.é    Nc                  óÄ   — t           j                             dd¦  «         	 ddlm}  n"# t
+          $ r}t
+          d¦  «        |‚d}~ww xY w | t          j         ¦  «         dS ) zRun administrative tasks.ÚDJANGO_SETTINGS_MODULEzsocial_book.settingsr   )Úexecute_from_command_linezœCouldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?N)ÚosÚ environÚ
+setdefaultÚdjango.core.managementr   Ú
+ImportErrorÚsysÚargv)r   Úexcs     úMC:\Users\Brandon Shen\Documents\social_book\social_book\social_book\manage.pyÚmainr       sŒ   € å„J×ÒÐ2Ð4JÑKÔKÐKð ØDÐDÐDÐDÐDÐDÐDøÝ
+ð ð ð Ýð
+8ñ
+ô 
+ð ð		øøøøðøøøð ÐcœhÑ'Ô'Ð'Ð'Ð's   ¢) ©
+A³AÁAÚ__main__)Ú __doc__r   r
+   r   Ú__name__© ó    r   ú<module>r      sP   ðà =Ð =Ø 	€	€	€	Ø 
+€
+€
+€
+ð
+(ð 
+(ð 
+(ð ˆzÒÐØ€DF„F€F€F€Fð Ðr   
